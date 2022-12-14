@@ -1,1 +1,2 @@
 # MergeSort
+The program creates an array of 1 million nodes with random key integer values. It then recursively splits the array in half into two smaller arrays until only 10 values are left in each array. When 10 values are reached, the arrays are sorted using the selection sort method, since this is often faster on smaller sets of numbers. Then, the merge method is used to merge the lists back together in order.
